@@ -11,6 +11,12 @@ const MenuBar: React.FC = () => {
         <li className={styles.menuItem}>
           <a href="/admin" className={styles.menuLink}>Admin</a>
         </li>
+        <li className={styles.menuItem}>
+          <a href="/register" className={styles.menuLink}>New User</a>
+        </li>
+        <li className={styles.menuItem}>
+          <a href="/login" className={styles.menuLink}>Login</a>
+        </li>
       </ul>
     </nav>
   );
