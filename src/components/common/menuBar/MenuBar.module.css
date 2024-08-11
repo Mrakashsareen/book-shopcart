@@ -1,0 +1,33 @@
+.menuBar {
+    background-color: #007bff;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .menuList {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menuItem {
+    margin-right: 20px;
+  }
+  
+  .menuLink {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .menuLink:hover {
+    color: #ddd;
+    text-decoration: underline;
+  }
+  
